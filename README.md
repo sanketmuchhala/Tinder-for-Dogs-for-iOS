@@ -13,7 +13,7 @@ Tinder for Dogs is a fun and easy-to-use app that lets you find dogs nearby. You
 
 ## Screenshots
 
-> Add your screenshots here
+> "Coming soon"
 
 ## Requirements
 
