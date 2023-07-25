@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8015A0C2A701D8700176AC9 /* Tinder_for_DogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A0B2A701D8700176AC9 /* Tinder_for_DogsApp.swift */; };
+		A8015A0E2A701D8700176AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A0D2A701D8700176AC9 /* ContentView.swift */; };
+		A8015A102A701D8800176AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8015A0F2A701D8800176AC9 /* Assets.xcassets */; };
+		A8015A132A701D8800176AC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8015A122A701D8800176AC9 /* Preview Assets.xcassets */; };
+		A8015A152A701D8800176AC9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A142A701D8800176AC9 /* Persistence.swift */; };
+		A8015A182A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8015A162A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodeld */; };
+		A8015A232A701D8900176AC9 /* Tinder_for_DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A222A701D8900176AC9 /* Tinder_for_DogsTests.swift */; };
+		A8015A2D2A701D8900176AC9 /* Tinder_for_DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A2C2A701D8900176AC9 /* Tinder_for_DogsUITests.swift */; };
+		A8015A2F2A701D8900176AC9 /* Tinder_for_DogsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8015A2E2A701D8900176AC9 /* Tinder_for_DogsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8015A1F2A701D8900176AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8015A002A701D8700176AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8015A072A701D8700176AC9;
+			remoteInfo = "Tinder for Dogs";
+		};
+		A8015A292A701D8900176AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8015A002A701D8700176AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8015A072A701D8700176AC9;
+			remoteInfo = "Tinder for Dogs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8015A082A701D8700176AC9 /* Tinder for Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder for Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8015A0B2A701D8700176AC9 /* Tinder_for_DogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_DogsApp.swift; sourceTree = "<group>"; };
+		A8015A0D2A701D8700176AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8015A0F2A701D8800176AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8015A122A701D8800176AC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8015A142A701D8800176AC9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A8015A172A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tinder_for_Dogs.xcdatamodel; sourceTree = "<group>"; };
+		A8015A192A701D8800176AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8015A1E2A701D8900176AC9 /* Tinder for DogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder for DogsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8015A222A701D8900176AC9 /* Tinder_for_DogsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_DogsTests.swift; sourceTree = "<group>"; };
+		A8015A282A701D8900176AC9 /* Tinder for DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder for DogsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8015A2C2A701D8900176AC9 /* Tinder_for_DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_DogsUITests.swift; sourceTree = "<group>"; };
+		A8015A2E2A701D8900176AC9 /* Tinder_for_DogsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_DogsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8015A052A701D8700176AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A1B2A701D8900176AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A252A701D8900176AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80159FF2A701D8700176AC9 = {
+			isa = PBXGroup;
+			children = (
+				A8015A0A2A701D8700176AC9 /* Tinder for Dogs */,
+				A8015A212A701D8900176AC9 /* Tinder for DogsTests */,
+				A8015A2B2A701D8900176AC9 /* Tinder for DogsUITests */,
+				A8015A092A701D8700176AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8015A092A701D8700176AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8015A082A701D8700176AC9 /* Tinder for Dogs.app */,
+				A8015A1E2A701D8900176AC9 /* Tinder for DogsTests.xctest */,
+				A8015A282A701D8900176AC9 /* Tinder for DogsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8015A0A2A701D8700176AC9 /* Tinder for Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				A8015A0B2A701D8700176AC9 /* Tinder_for_DogsApp.swift */,
+				A8015A0D2A701D8700176AC9 /* ContentView.swift */,
+				A8015A0F2A701D8800176AC9 /* Assets.xcassets */,
+				A8015A142A701D8800176AC9 /* Persistence.swift */,
+				A8015A192A701D8800176AC9 /* Info.plist */,
+				A8015A162A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodeld */,
+				A8015A112A701D8800176AC9 /* Preview Content */,
+			);
+			path = "Tinder for Dogs";
+			sourceTree = "<group>";
+		};
+		A8015A112A701D8800176AC9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8015A122A701D8800176AC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8015A212A701D8900176AC9 /* Tinder for DogsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8015A222A701D8900176AC9 /* Tinder_for_DogsTests.swift */,
+			);
+			path = "Tinder for DogsTests";
+			sourceTree = "<group>";
+		};
+		A8015A2B2A701D8900176AC9 /* Tinder for DogsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8015A2C2A701D8900176AC9 /* Tinder_for_DogsUITests.swift */,
+				A8015A2E2A701D8900176AC9 /* Tinder_for_DogsUITestsLaunchTests.swift */,
+			);
+			path = "Tinder for DogsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8015A072A701D8700176AC9 /* Tinder for Dogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8015A322A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for Dogs" */;
+			buildPhases = (
+				A8015A042A701D8700176AC9 /* Sources */,
+				A8015A052A701D8700176AC9 /* Frameworks */,
+				A8015A062A701D8700176AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tinder for Dogs";
+			productName = "Tinder for Dogs";
+			productReference = A8015A082A701D8700176AC9 /* Tinder for Dogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8015A1D2A701D8900176AC9 /* Tinder for DogsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8015A352A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for DogsTests" */;
+			buildPhases = (
+				A8015A1A2A701D8900176AC9 /* Sources */,
+				A8015A1B2A701D8900176AC9 /* Frameworks */,
+				A8015A1C2A701D8900176AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8015A202A701D8900176AC9 /* PBXTargetDependency */,
+			);
+			name = "Tinder for DogsTests";
+			productName = "Tinder for DogsTests";
+			productReference = A8015A1E2A701D8900176AC9 /* Tinder for DogsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8015A272A701D8900176AC9 /* Tinder for DogsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8015A382A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for DogsUITests" */;
+			buildPhases = (
+				A8015A242A701D8900176AC9 /* Sources */,
+				A8015A252A701D8900176AC9 /* Frameworks */,
+				A8015A262A701D8900176AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8015A2A2A701D8900176AC9 /* PBXTargetDependency */,
+			);
+			name = "Tinder for DogsUITests";
+			productName = "Tinder for DogsUITests";
+			productReference = A8015A282A701D8900176AC9 /* Tinder for DogsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8015A002A701D8700176AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A8015A072A701D8700176AC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A8015A1D2A701D8900176AC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A8015A072A701D8700176AC9;
+					};
+					A8015A272A701D8900176AC9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A8015A072A701D8700176AC9;
+					};
+				};
+			};
+			buildConfigurationList = A8015A032A701D8700176AC9 /* Build configuration list for PBXProject "Tinder for Dogs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80159FF2A701D8700176AC9;
+			productRefGroup = A8015A092A701D8700176AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8015A072A701D8700176AC9 /* Tinder for Dogs */,
+				A8015A1D2A701D8900176AC9 /* Tinder for DogsTests */,
+				A8015A272A701D8900176AC9 /* Tinder for DogsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8015A062A701D8700176AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8015A132A701D8800176AC9 /* Preview Assets.xcassets in Resources */,
+				A8015A102A701D8800176AC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A1C2A701D8900176AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A262A701D8900176AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8015A042A701D8700176AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8015A182A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodeld in Sources */,
+				A8015A152A701D8800176AC9 /* Persistence.swift in Sources */,
+				A8015A0E2A701D8700176AC9 /* ContentView.swift in Sources */,
+				A8015A0C2A701D8700176AC9 /* Tinder_for_DogsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A1A2A701D8900176AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8015A232A701D8900176AC9 /* Tinder_for_DogsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8015A242A701D8900176AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8015A2D2A701D8900176AC9 /* Tinder_for_DogsUITests.swift in Sources */,
+				A8015A2F2A701D8900176AC9 /* Tinder_for_DogsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8015A202A701D8900176AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8015A072A701D8700176AC9 /* Tinder for Dogs */;
+			targetProxy = A8015A1F2A701D8900176AC9 /* PBXContainerItemProxy */;
+		};
+		A8015A2A2A701D8900176AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8015A072A701D8700176AC9 /* Tinder for Dogs */;
+			targetProxy = A8015A292A701D8900176AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8015A302A701D8900176AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8015A312A701D8900176AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8015A332A701D8900176AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tinder for Dogs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8015A342A701D8900176AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tinder for Dogs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-Dogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8015A362A701D8900176AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-DogsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinder for Dogs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tinder for Dogs";
+			};
+			name = Debug;
+		};
+		A8015A372A701D8900176AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-DogsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinder for Dogs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tinder for Dogs";
+			};
+			name = Release;
+		};
+		A8015A392A701D8900176AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-DogsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinder for Dogs";
+			};
+			name = Debug;
+		};
+		A8015A3A2A701D8900176AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.Tinder-for-DogsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tinder for Dogs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8015A032A701D8700176AC9 /* Build configuration list for PBXProject "Tinder for Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8015A302A701D8900176AC9 /* Debug */,
+				A8015A312A701D8900176AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8015A322A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for Dogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8015A332A701D8900176AC9 /* Debug */,
+				A8015A342A701D8900176AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8015A352A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for DogsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8015A362A701D8900176AC9 /* Debug */,
+				A8015A372A701D8900176AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8015A382A701D8900176AC9 /* Build configuration list for PBXNativeTarget "Tinder for DogsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8015A392A701D8900176AC9 /* Debug */,
+				A8015A3A2A701D8900176AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8015A162A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8015A172A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodel */,
+			);
+			currentVersion = A8015A172A701D8800176AC9 /* Tinder_for_Dogs.xcdatamodel */;
+			path = Tinder_for_Dogs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8015A002A701D8700176AC9 /* Project object */;
+}
